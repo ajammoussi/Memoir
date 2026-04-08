@@ -1,0 +1,69 @@
+# Python
+venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# Data (add your input files locally — not tracked in git)
+backend/data/
+data/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Output (auto-generated graph exports — not tracked in git)
+backend/output/
+
+# Temporary cloud-download cache
+file_handling/tmp/*
+!file_handling/tmp/.gitkeep
+
+# Models
+models/
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Google Drive credentials
+credentials.json
+token.pickle
+token.json
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+.venv*
+
+# Old / duplicate code
+file_handling/
